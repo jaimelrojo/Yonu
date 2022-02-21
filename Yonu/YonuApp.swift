@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct YonuApp: App {
+    
+    @State var showLaunchScreen: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+                
+                ZStack {
+                    if showLaunchScreen == true {
+                        PantallaCarga(showLaunchScreen: $showLaunchScreen)
+                            .transition(.opacity)
+                    }
+                }
+                .zIndex(2.0)
+            }
         }
     }
 }
