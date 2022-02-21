@@ -43,7 +43,6 @@ struct PantallaCarga: View {
                             .opacity(counter == 24 ? 0.3 : 1)
                             .opacity(counter == 25 ? 0.2 : 1)
                         Text("N")
-//                            .offset(y: counter == 15 ? -40 : 0)
                     }
                     .foregroundColor(Color("AnamorphicRed"))
                     .shadow(color: Color("AnamorphicRed"), radius: 5)
@@ -52,9 +51,7 @@ struct PantallaCarga: View {
                     VStack(alignment: .center, spacing: -42) {
                         
                         Text("O")
-//                            .offset(y: counter == 10 ? -40 : 0)
                         Text("U")
-//                            .offset(y: counter == 20 ? -40 : 0)
                     }
                     .foregroundColor(Color("AnamorphicBlue"))
                     .shadow(color: Color("AnamorphicBlue"), radius: 5)

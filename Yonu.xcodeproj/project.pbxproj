@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE041A7B27BDD15500C64765 /* Instrucciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE041A7A27BDD15500C64765 /* Instrucciones.swift */; };
 		EE15E64F27BADA8900A4558F /* YonuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE15E64E27BADA8900A4558F /* YonuApp.swift */; };
 		EE15E65127BADA8900A4558F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE15E65027BADA8900A4558F /* ContentView.swift */; };
 		EE15E65327BADA8A00A4558F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE15E65227BADA8A00A4558F /* Assets.xcassets */; };
 		EE15E65627BADA8A00A4558F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE15E65527BADA8A00A4558F /* Preview Assets.xcassets */; };
+		EE1E693527BB11E300384A64 /* Boton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E693427BB11E300384A64 /* Boton.swift */; };
+		EE1E693727BB173300384A64 /* Carta.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E693627BB173300384A64 /* Carta.swift */; };
+		EE36030D27BF7D5F00F36E6A /* PantallaCarga.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE36030C27BF7D5F00F36E6A /* PantallaCarga.swift */; };
+		EE372FB927BBC2880044E2FE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE372FB827BBC2880044E2FE /* Config.swift */; };
+		EE372FBB27BBC5DF0044E2FE /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE372FBA27BBC5DF0044E2FE /* Alerta.swift */; };
+		EE372FBD27BBC89E0044E2FE /* Lovelo Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE372FBC27BBC89E0044E2FE /* Lovelo Black.otf */; };
+		EE5C270D27C2E4FD0098E52C /* SwiftUIMailView in Frameworks */ = {isa = PBXBuildFile; productRef = EE5C270C27C2E4FD0098E52C /* SwiftUIMailView */; };
+		EE5C270F27C2E80B0098E52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5C270E27C2E80B0098E52C /* LaunchScreen.storyboard */; };
+		EE5C271127C2E8FF0098E52C /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C271027C2E8FF0098E52C /* SwiftUIMailView.swift */; };
+		EE60BF4827BC7C4C00F946A9 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60BF4727BC7C4C00F946A9 /* Info.swift */; };
+		EEF9A88B27BAE0B600C912D3 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A88A27BAE0B600C912D3 /* Blur.swift */; };
+		EEF9A88D27BAE17500C912D3 /* Luz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A88C27BAE17500C912D3 /* Luz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE041A7A27BDD15500C64765 /* Instrucciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrucciones.swift; sourceTree = "<group>"; };
 		EE15E64B27BADA8900A4558F /* Yonu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yonu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE15E64E27BADA8900A4558F /* YonuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonuApp.swift; sourceTree = "<group>"; };
 		EE15E65027BADA8900A4558F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE15E65227BADA8A00A4558F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE15E65527BADA8A00A4558F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE1E693427BB11E300384A64 /* Boton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boton.swift; sourceTree = "<group>"; };
+		EE1E693627BB173300384A64 /* Carta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carta.swift; sourceTree = "<group>"; };
+		EE36030C27BF7D5F00F36E6A /* PantallaCarga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaCarga.swift; sourceTree = "<group>"; };
+		EE372FB827BBC2880044E2FE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		EE372FBA27BBC5DF0044E2FE /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		EE372FBC27BBC89E0044E2FE /* Lovelo Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lovelo Black.otf"; sourceTree = "<group>"; };
+		EE372FBE27BBCA250044E2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE5C270E27C2E80B0098E52C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE5C271027C2E8FF0098E52C /* SwiftUIMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMailView.swift; sourceTree = "<group>"; };
+		EE60BF4727BC7C4C00F946A9 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		EEF9A88A27BAE0B600C912D3 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		EEF9A88C27BAE17500C912D3 /* Luz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5C270D27C2E4FD0098E52C /* SwiftUIMailView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +78,22 @@
 		EE15E64D27BADA8900A4558F /* Yonu */ = {
 			isa = PBXGroup;
 			children = (
+				EE372FBE27BBCA250044E2FE /* Info.plist */,
 				EE15E64E27BADA8900A4558F /* YonuApp.swift */,
 				EE15E65027BADA8900A4558F /* ContentView.swift */,
+				EEF9A88C27BAE17500C912D3 /* Luz.swift */,
+				EEF9A88A27BAE0B600C912D3 /* Blur.swift */,
+				EE1E693427BB11E300384A64 /* Boton.swift */,
+				EE1E693627BB173300384A64 /* Carta.swift */,
+				EE372FBA27BBC5DF0044E2FE /* Alerta.swift */,
+				EE372FB827BBC2880044E2FE /* Config.swift */,
+				EE60BF4727BC7C4C00F946A9 /* Info.swift */,
+				EE041A7A27BDD15500C64765 /* Instrucciones.swift */,
+				EE36030C27BF7D5F00F36E6A /* PantallaCarga.swift */,
+				EE5C271027C2E8FF0098E52C /* SwiftUIMailView.swift */,
+				EE5C270E27C2E80B0098E52C /* LaunchScreen.storyboard */,
 				EE15E65227BADA8A00A4558F /* Assets.xcassets */,
+				EE372FBC27BBC89E0044E2FE /* Lovelo Black.otf */,
 				EE15E65427BADA8A00A4558F /* Preview Content */,
 			);
 			path = Yonu;
@@ -83,6 +123,9 @@
 			dependencies = (
 			);
 			name = Yonu;
+			packageProductDependencies = (
+				EE5C270C27C2E4FD0098E52C /* SwiftUIMailView */,
+			);
 			productName = Yonu;
 			productReference = EE15E64B27BADA8900A4558F /* Yonu.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,9 @@
 				Base,
 			);
 			mainGroup = EE15E64227BADA8900A4558F;
+			packageReferences = (
+				EE5C270B27C2E4FD0098E52C /* XCRemoteSwiftPackageReference "swiftui-mail-view" */,
+			);
 			productRefGroup = EE15E64C27BADA8900A4558F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE372FBD27BBC89E0044E2FE /* Lovelo Black.otf in Resources */,
+				EE5C270F27C2E80B0098E52C /* LaunchScreen.storyboard in Resources */,
 				EE15E65627BADA8A00A4558F /* Preview Assets.xcassets in Resources */,
 				EE15E65327BADA8A00A4558F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE372FBB27BBC5DF0044E2FE /* Alerta.swift in Sources */,
+				EE1E693527BB11E300384A64 /* Boton.swift in Sources */,
+				EE041A7B27BDD15500C64765 /* Instrucciones.swift in Sources */,
+				EE1E693727BB173300384A64 /* Carta.swift in Sources */,
+				EE36030D27BF7D5F00F36E6A /* PantallaCarga.swift in Sources */,
+				EE60BF4827BC7C4C00F946A9 /* Info.swift in Sources */,
+				EEF9A88B27BAE0B600C912D3 /* Blur.swift in Sources */,
+				EE372FB927BBC2880044E2FE /* Config.swift in Sources */,
 				EE15E65127BADA8900A4558F /* ContentView.swift in Sources */,
+				EE5C271127C2E8FF0098E52C /* SwiftUIMailView.swift in Sources */,
 				EE15E64F27BADA8900A4558F /* YonuApp.swift in Sources */,
+				EEF9A88D27BAE17500C912D3 /* Luz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -272,11 +330,15 @@
 				DEVELOPMENT_TEAM = FJSP79WGW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yonu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,11 +363,15 @@
 				DEVELOPMENT_TEAM = FJSP79WGW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yonu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE5C270B27C2E4FD0098E52C /* XCRemoteSwiftPackageReference "swiftui-mail-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-mail-view";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE5C270C27C2E4FD0098E52C /* SwiftUIMailView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE5C270B27C2E4FD0098E52C /* XCRemoteSwiftPackageReference "swiftui-mail-view" */;
+			productName = SwiftUIMailView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE15E64327BADA8900A4558F /* Project object */;
 }
