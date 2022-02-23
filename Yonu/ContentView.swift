@@ -89,7 +89,7 @@ struct ContentView: View {
                     "",//Card39
                     "¿Qué estás esperando?",//Card40
                     "",//Card41
-                    "",//Card42
+                    "Ya di cuanto fue...",//Card42
                     ""//Card43
     ]
     
