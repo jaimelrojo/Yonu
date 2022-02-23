@@ -16,9 +16,9 @@ struct ContentView: View {
     @State var luzOffset: [Double] = [0, 0, 0, 0, 0, 0]
     @State var glassOpacity: Double = 0.2
     
-    private var card: [String] = ["card0", "card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "card11", "card12", "card13", "card14", "card15", "card16", "card17", "card18", "card19", "card20", "card21", "card22", "card23", "card24", "card25", "card26", "card27", "card28", "card29", "card30", "card31", "card32", "card33", "card34", "card35", "card36", "card37", "card38", "card39", "card40", "card41"]
-    @State private var baseCards = [1, 2, 3, 4, 5, 7, 10, 14, 20, 21, 22, 23, 24, 26, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41]
-    @State private var eighteenPlusCards = [6, 8, 9, 11, 12, 13 ,15, 16, 17, 18, 19, 25, 27, 33]
+    private var card: [String] = ["card0", "card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "card11", "card12", "card13", "card14", "card15", "card16", "card17", "card18", "card19", "card20", "card21", "card22", "card23", "card24", "card25", "card26", "card27", "card28", "card29", "card30", "card31", "card32", "card33", "card34", "card35", "card36", "card37", "card38", "card39", "card40", "card41", "card42", "card43"]
+    @State private var baseCards = [1, 2, 3, 4, 5, 7, 10, 14, 20, 21, 22, 23, 24, 26, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 43]
+    @State private var eighteenPlusCards = [6, 8, 9, 11, 12, 13 ,15, 16, 17, 18, 19, 25, 27, 33, 42]
     @State var eighteenPlusToggle: Bool = true
     @State private var startingCard = [0]
     @State private var cardback = [0]
@@ -44,51 +44,53 @@ struct ContentView: View {
     }
     
     var infoText = ["", //Card0
-                            "¿Todo bien en casa?", //Card1
-                            "Sus besos no son una droga, ridículo", //Card2
-                            "", //Card3
-                            "Dejame adivinar: ¿Kung Fu Panda 3?", //Card4
-                            "", //Card5
-                            "", //Card6
-                            "", //Card7
-                            "", //Card8
-                            "", //Card9
-                            "", //Card10
-                            "", //Card11
-                            "¿Dónde está tu honor, basura?", //Card12
-                            "Uno siempre vuelve a donde fue feliz", //Card13
-                            "Pero dime... ¿has estado cerca de vivir?", //Card14
-                            "😏", //Card15
-                            "", //Card16
-                            "", //Card17
-                            "", //Card18
-                            "", //Card19
-                            "", //Card20
-                            "¿Tan rápido es hora del tequila?", //Card21
-                            "", //Card22
-                            "", //Card23
-                            "", //Card24
-                            "Chapulinear        Dísese del verbo: bajarle la novia a tu compa", //Card25
-                            "", //Card26
-                            "", //Card27
-                            "", //Card28
-                            "", //Card29
-                            "", //Card30
-                            "", //Card31
-                            "Un niño flotó sobre mi y voló un auto con su rasho laser",//Card33
-                            "",//Card33
-                            "",//Card34
-                            "",//Card33
-                            "",//Card34
-                            "",//Card33
-                            "",//Card34
-                            "",//Card35
-                            "",//Card36
-                            "",//Card37
-                            "",//Card38
-                            "",//Card39
-                            "¿Qué estás esperando?",//Card40
-                            ""//Card41
+                    "¿Todo bien en casa?", //Card1
+                    "Sus besos no son una droga, ridículo", //Card2
+                    "", //Card3
+                    "Dejame adivinar: ¿Kung Fu Panda 3?", //Card4
+                    "", //Card5
+                    "", //Card6
+                    "", //Card7
+                    "", //Card8
+                    "", //Card9
+                    "", //Card10
+                    "", //Card11
+                    "¿Dónde está tu honor, basura?", //Card12
+                    "Uno siempre vuelve a donde fue feliz", //Card13
+                    "Pero dime... ¿has estado cerca de vivir?", //Card14
+                    "😏", //Card15
+                    "", //Card16
+                    "", //Card17
+                    "", //Card18
+                    "", //Card19
+                    "", //Card20
+                    "¿Tan rápido es hora del tequila?", //Card21
+                    "", //Card22
+                    "", //Card23
+                    "", //Card24
+                    "Chapulinear        Dísese del verbo: bajarle la novia a tu compa", //Card25
+                    "", //Card26
+                    "", //Card27
+                    "", //Card28
+                    "", //Card29
+                    "", //Card30
+                    "", //Card31
+                    "Un niño flotó sobre mi y voló un auto con su rasho laser",//Card33
+                    "",//Card33
+                    "",//Card34
+                    "",//Card33
+                    "",//Card34
+                    "",//Card33
+                    "",//Card34
+                    "",//Card35
+                    "",//Card36
+                    "",//Card37
+                    "",//Card38
+                    "",//Card39
+                    "¿Qué estás esperando?",//Card40
+                    "",//Card41
+                    "",//Card42
+                    ""//Card43
     ]
     
     var body: some View {

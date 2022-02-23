@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Config: View {
     
+    @Environment(\.openURL) var openURL
+    
     @Binding var showConfig: Bool
     @Binding var gameStarted: Bool
     @Binding var eighteenPlusToggle: Bool
@@ -35,24 +37,6 @@ struct Config: View {
             .overlay(showConfig ?
                      VStack {
                 
-                HStack {
-                    
-                    Spacer()
-                    
-                    Button {
-                        showRules = true
-                    } label: {
-                        Blur(effect: UIBlurEffect(style: .dark))
-                            .mask(Image(systemName: "questionmark.circle.fill")
-                                    .resizable()
-                                    .scaledToFit()
-                            )
-                            .frame(width: UIScreen.main.bounds.width * 0.10,
-                                   height: UIScreen.main.bounds.width * 0.10)
-                    }
-                    .disabled(alert)
-                }
-                
                 Spacer()
                 
                 HStack {
@@ -72,16 +56,23 @@ struct Config: View {
                 
                 HStack {
                     
+                    Spacer()
+                    
+                    Button {
+                        showRules = true
+                    } label: {
+                        BotonCircular(symbol: "ruler.fill",
+                                      size: gameStarted ? 0.12 : 0.1)
+                    }
+                    .disabled(alert)
+
+                    Spacer()
+                    
                     Button {
                         showMailView.toggle()
                     } label: {
-                        Blur(effect: UIBlurEffect(style: .dark))
-                            .mask(Image(systemName: "envelope.circle.fill")
-                                    .resizable()
-                                    .scaledToFit()
-                            )
-                            .frame(width: UIScreen.main.bounds.width * 0.10,
-                                   height: UIScreen.main.bounds.width * 0.10)
+                        BotonCircular(symbol: "envelope.circle.fill",
+                                      size: gameStarted ? 0.12 : 0.1)
                     }
                     .disabled(alert)
                     .disabled(!MailView.canSendMail)
@@ -90,6 +81,28 @@ struct Config: View {
                             print(result)
                         }
                     }
+                    
+                    Spacer()
+                    
+                    Button {
+                        openURL(URL(string: "https://www.instagram.com/yonuapp/")!)
+                    } label: {
+                        BotonCircular(symbol: "camera.circle.fill",
+                                      size: gameStarted ? 0.12 : 0.1)
+                    }
+                    .disabled(alert)
+                    
+                    Spacer()
+                    
+                    Button {
+                        openURL(URL(string: "https://www.websitepolicies.com/policies/view/5zzwb506")!)
+                    } label: {
+                        BotonCircular(symbol: "doc.circle.fill",
+                                      size: gameStarted ? 0.12 : 0.1)
+                    }
+                    .disabled(alert)
+                    
+                    Spacer()
                 }
                 
 //                if gameStarted == true {
@@ -114,7 +127,7 @@ struct Config: View {
             )
             .foregroundColor(.black)
             .font(.title)
-            .toggleStyle(SwitchToggleStyle(tint: Color("AnamorphicBlue")))
+            .toggleStyle(SwitchToggleStyle(tint: Color("AnamorphicRed")))
             .padding(gameStarted ? 0 : 30)
             .padding(showConfig ? 2 : 30)
             .frame(width: UIScreen.main.bounds.width * 0.92,
@@ -138,6 +151,6 @@ struct Config: View {
 
 struct Config_Previews: PreviewProvider {
     static var previews: some View {
-        Config(showConfig: .constant(true), gameStarted: .constant(true), eighteenPlusToggle: .constant(true), shuffleOrNext: .constant(true), alert: .constant(true), counter1: .constant(0), counter2: .constant(0), flipped: .constant(true), flip: .constant(0), showRules: .constant(false))
+        Config(showConfig: .constant(true), gameStarted: .constant(true), eighteenPlusToggle: .constant(true), shuffleOrNext: .constant(true), alert: .constant(false), counter1: .constant(0), counter2: .constant(0), flipped: .constant(true), flip: .constant(0), showRules: .constant(false))
     }
 }

@@ -22,6 +22,9 @@
 		EE5C270F27C2E80B0098E52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5C270E27C2E80B0098E52C /* LaunchScreen.storyboard */; };
 		EE5C271127C2E8FF0098E52C /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C271027C2E8FF0098E52C /* SwiftUIMailView.swift */; };
 		EE60BF4827BC7C4C00F946A9 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60BF4727BC7C4C00F946A9 /* Info.swift */; };
+		EEA5D04927C600B200FA4019 /* Config2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5D04827C600B200FA4019 /* Config2.swift */; };
+		EEA5D04B27C6074E00FA4019 /* BotonRectangular.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5D04A27C6074E00FA4019 /* BotonRectangular.swift */; };
+		EEA5D04D27C60C6A00FA4019 /* BotonCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5D04C27C60C6A00FA4019 /* BotonCircular.swift */; };
 		EEF9A88B27BAE0B600C912D3 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A88A27BAE0B600C912D3 /* Blur.swift */; };
 		EEF9A88D27BAE17500C912D3 /* Luz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A88C27BAE17500C912D3 /* Luz.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +46,9 @@
 		EE5C270E27C2E80B0098E52C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5C271027C2E8FF0098E52C /* SwiftUIMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMailView.swift; sourceTree = "<group>"; };
 		EE60BF4727BC7C4C00F946A9 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		EEA5D04827C600B200FA4019 /* Config2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config2.swift; sourceTree = "<group>"; };
+		EEA5D04A27C6074E00FA4019 /* BotonRectangular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonRectangular.swift; sourceTree = "<group>"; };
+		EEA5D04C27C60C6A00FA4019 /* BotonCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonCircular.swift; sourceTree = "<group>"; };
 		EEF9A88A27BAE0B600C912D3 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		EEF9A88C27BAE17500C912D3 /* Luz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +90,7 @@
 				EEF9A88C27BAE17500C912D3 /* Luz.swift */,
 				EEF9A88A27BAE0B600C912D3 /* Blur.swift */,
 				EE1E693427BB11E300384A64 /* Boton.swift */,
+				EEA5D04A27C6074E00FA4019 /* BotonRectangular.swift */,
 				EE1E693627BB173300384A64 /* Carta.swift */,
 				EE372FBA27BBC5DF0044E2FE /* Alerta.swift */,
 				EE372FB827BBC2880044E2FE /* Config.swift */,
@@ -95,6 +102,8 @@
 				EE15E65227BADA8A00A4558F /* Assets.xcassets */,
 				EE372FBC27BBC89E0044E2FE /* Lovelo Black.otf */,
 				EE15E65427BADA8A00A4558F /* Preview Content */,
+				EEA5D04827C600B200FA4019 /* Config2.swift */,
+				EEA5D04C27C60C6A00FA4019 /* BotonCircular.swift */,
 			);
 			path = Yonu;
 			sourceTree = "<group>";
@@ -186,11 +195,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE372FBB27BBC5DF0044E2FE /* Alerta.swift in Sources */,
+				EEA5D04927C600B200FA4019 /* Config2.swift in Sources */,
 				EE1E693527BB11E300384A64 /* Boton.swift in Sources */,
+				EEA5D04B27C6074E00FA4019 /* BotonRectangular.swift in Sources */,
 				EE041A7B27BDD15500C64765 /* Instrucciones.swift in Sources */,
 				EE1E693727BB173300384A64 /* Carta.swift in Sources */,
 				EE36030D27BF7D5F00F36E6A /* PantallaCarga.swift in Sources */,
 				EE60BF4827BC7C4C00F946A9 /* Info.swift in Sources */,
+				EEA5D04D27C60C6A00FA4019 /* BotonCircular.swift in Sources */,
 				EEF9A88B27BAE0B600C912D3 /* Blur.swift in Sources */,
 				EE372FB927BBC2880044E2FE /* Config.swift in Sources */,
 				EE15E65127BADA8900A4558F /* ContentView.swift in Sources */,

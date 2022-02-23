@@ -54,7 +54,7 @@ struct Instrucciones: View {
             .padding(showRules ? 2 : 30)
             .frame(width: UIScreen.main.bounds.width * 0.92,
                    height: UIScreen.main.bounds.height * 0.65)
-            .opacity(showRules ? 0.7 : 0)
+            .opacity(showRules ? 0.8 : 0)
             .animation(.spring(response: 0.5, dampingFraction: 0.5))
     }
 }
