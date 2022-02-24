@@ -85,24 +85,3 @@ public struct ComposeMailData {
     
     public static let empty = ComposeMailData(subject: "", recipients: nil, message: "")
 }
-
-struct MailViewTest: View {
-   @State private var mailData = ComposeMailData(subject: "A subject",
-                                                 recipients: ["i.love@swiftuirecipes.com"],
-                                                 message: "Here's a message")
-   @State private var showMailView = false
-
-    var body: some View {
-        Button(action: {
-            showMailView.toggle()
-        }) {
-            Text("Send mail")
-        }
-        .disabled(!MailView.canSendMail)
-        .sheet(isPresented: $showMailView) {
-            MailView(data: $mailData) { result in
-                print(result)
-            }
-        }
-    }
-}
