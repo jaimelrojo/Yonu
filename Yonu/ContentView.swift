@@ -75,11 +75,7 @@ struct ContentView: View {
                     "", //Card29
                     "", //Card30
                     "", //Card31
-                    "Un niño flotó sobre mi y voló un auto con su rasho laser",//Card33
-                    "",//Card33
-                    "",//Card34
-                    "",//Card33
-                    "",//Card34
+                    "Un niño flotó sobre mi y voló un auto con su rasho laser",//Card32
                     "",//Card33
                     "",//Card34
                     "",//Card35
@@ -87,7 +83,7 @@ struct ContentView: View {
                     "",//Card37
                     "",//Card38
                     "",//Card39
-                    "¿Qué estás esperando?",//Card40
+                    "¿Y qué estás esperando?",//Card40
                     "",//Card41
                     "Ya di cuanto fue...",//Card42
                     ""//Card43
