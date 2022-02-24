@@ -91,6 +91,7 @@
 				EEF9A88A27BAE0B600C912D3 /* Blur.swift */,
 				EE1E693427BB11E300384A64 /* Boton.swift */,
 				EEA5D04A27C6074E00FA4019 /* BotonRectangular.swift */,
+				EEA5D04C27C60C6A00FA4019 /* BotonCircular.swift */,
 				EE1E693627BB173300384A64 /* Carta.swift */,
 				EE372FBA27BBC5DF0044E2FE /* Alerta.swift */,
 				EE372FB827BBC2880044E2FE /* Config.swift */,
@@ -99,11 +100,10 @@
 				EE36030C27BF7D5F00F36E6A /* PantallaCarga.swift */,
 				EE5C271027C2E8FF0098E52C /* SwiftUIMailView.swift */,
 				EE5C270E27C2E80B0098E52C /* LaunchScreen.storyboard */,
+				EEA5D04827C600B200FA4019 /* Config2.swift */,
 				EE15E65227BADA8A00A4558F /* Assets.xcassets */,
 				EE372FBC27BBC89E0044E2FE /* Lovelo Black.otf */,
 				EE15E65427BADA8A00A4558F /* Preview Content */,
-				EEA5D04827C600B200FA4019 /* Config2.swift */,
-				EEA5D04C27C60C6A00FA4019 /* BotonCircular.swift */,
 			);
 			path = Yonu;
 			sourceTree = "<group>";
